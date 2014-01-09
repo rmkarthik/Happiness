@@ -23,4 +23,7 @@
     [self.faceview setNeedsDisplay];
 }
 
+-(BOOL)shouldAutorotate {
+    return YES;
+}
 @end
