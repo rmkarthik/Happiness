@@ -7,23 +7,20 @@
 //
 
 #import "HappinessViewController.h"
+#import "FaceView.h"
 
-@interface HappinessViewController ()
-
+@interface HappinessViewController()
+@property (nonatomic, weak) IBOutlet FaceView *faceview;
 @end
 
 @implementation HappinessViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+@synthesize happiness = _happiness;
+@synthesize faceview = _faceview;
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)setHappiness:(int)happiness {
+    _happiness = happiness;
+    [self.faceview setNeedsDisplay];
 }
 
 @end

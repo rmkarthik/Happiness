@@ -18,6 +18,7 @@
 		25DEC16B187EBA2A00B555C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DEC16A187EBA2A00B555C0 /* Default-568h@2x.png */; };
 		25DEC16E187EBA2A00B555C0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DEC16C187EBA2A00B555C0 /* MainStoryboard.storyboard */; };
 		25DEC171187EBA2A00B555C0 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DEC170187EBA2A00B555C0 /* HappinessViewController.m */; };
+		25DEC179187EBA6000B555C0 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DEC178187EBA6000B555C0 /* FaceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		25DEC16D187EBA2A00B555C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		25DEC16F187EBA2A00B555C0 /* HappinessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
 		25DEC170187EBA2A00B555C0 /* HappinessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
+		25DEC177187EBA6000B555C0 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		25DEC178187EBA6000B555C0 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				25DEC16F187EBA2A00B555C0 /* HappinessViewController.h */,
 				25DEC170187EBA2A00B555C0 /* HappinessViewController.m */,
 				25DEC15B187EBA2A00B555C0 /* Supporting Files */,
+				25DEC177187EBA6000B555C0 /* FaceView.h */,
+				25DEC178187EBA6000B555C0 /* FaceView.m */,
 			);
 			path = Happiness;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				25DEC161187EBA2A00B555C0 /* main.m in Sources */,
 				25DEC165187EBA2A00B555C0 /* HappinessAppDelegate.m in Sources */,
 				25DEC171187EBA2A00B555C0 /* HappinessViewController.m in Sources */,
+				25DEC179187EBA6000B555C0 /* FaceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

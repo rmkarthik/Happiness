@@ -10,4 +10,6 @@
 
 @interface HappinessViewController : UIViewController
 
+@property (nonatomic) int happiness; //0 is sad and 1 is very happy
+
 @end
